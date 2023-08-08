@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Learning | BHS</title>
+  <meta name="theme-color" content="#6528F7"/>
+  <link href="./style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="./logo.png" alt="logo" style="width: 130px; height: auto; margin-left: 10px" />
+      <div class="desktop-menu">
+        <a href="#courses" class="desktop-menu-link">Courses</a>
+        <a href="" class="desktop-menu-link">Bootcamp</a>
+        <a href="" class="desktop-menu-link">Contact</a>
+      </div>
+      <span class="material-symbols-outlined menu-button cursor-pointer" id="menu-button">
+        menu
+      </span>
+    </nav>
+  </header>
+  <div id="collapse-menu">
+    <a href="#courses" class="collapse-menu-link">Courses</a>
+    <a href="" class="collapse-menu-link">Bootcamp</a>
+    <a href="" class="collapse-menu-link">Contact</a>
+  </div>
+  <main>
+    <section class="home-section">
+      <div class="home-section-sub">
+        <div>
+          <p class="home-section-title txt-white">Find a perfect</p>
+          <p class="home-section-title txt-secondary" style="font-weight: 700">
+            Online Courses
+          </p>
+        </div>
+        <button class="start-learning-btn cursor-pointer">Start Learning today</button>
+        <p class="font-primary txt-white" style="margin-left: 20px;">Learn a new skills Every day Anytime and Anywhere
+        </p>
+      </div>
+      <div class="home-section-sub" style="align-items: center;">
+        <img src="./home-illu.png" alt="home-illustration" style="width:90%;height: auto" />
+      </div>
+    </section>
+    <section class="category-section">
+      <h1 style="text-align:center;color:#6528F7" class="font-primary">Top Courses by Category</h1>
+      <div class="categories-container">
+        <div class="category-container cursor-pointer">
+          <p>Design</p>
+          <p style="color: white;">Over 200+ courses</p>
+        </div>
+        <div class="category-container cursor-pointer">
+          <p>Medical</p>
+          <p style="color: white;">Over 250+ courses</p>
+        </div>
+        <div class="category-container cursor-pointer">
+          <p>Business</p>
+          <p style="color: white;">Over 35+ courses</p>
+        </div>
+        <div class="category-container cursor-pointer">
+          <p>Marketing</p>
+          <p style="color: white;">Over 20+ courses</p>
+        </div>
+        <div class="category-container cursor-pointer">
+          <p>Finance</p>
+          <p style="color: white;">Over 120+ courses</p>
+        </div>
+        <div class="category-container cursor-pointer">
+          <p>Accounting</p>
+          <p style="color: white;">Over 200+ courses</p>
+        </div>
+        <div class="category-container cursor-pointer">
+          <p>Technology</p>
+          <p style="color: white;">Over 200+ courses</p>
+        </div>
+      </div>
+    </section>
+    <section class="course-section" id="courses">
+      <h1 class="course-section-heading">Featured Courses</h1>
+      <div class="courses-container">
+        <div class="course-container">
+          <div class="course-image-container">
+            <svg viewBox="0 0 128 128" class="course-logo">
+              <g fill="#fff">
+                <circle cx="64" cy="64" r="11.4"></circle>
+                <path
+                  d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zM92.5 14.7c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zM81.3 74c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zM64 97.8c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zM64 30.2c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zM31.7 35c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zM7 64c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5C15.3 75.6 7 69.6 7 64zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zM96.3 93c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z">
+                </path>
+              </g>
+            </svg>
+          </div>
+          <h3 class="course-name">Get started with React</h3>
+          <p class="course-statistics">33.2K entrolled</p>
+          <p class="course-des">Hands on practice with reactjs to gain practical knowledge</p>
+          <button class="enroll-btn" onclick="enroll(0)">Enroll Now</button>
+        </div>
+        <div class="course-container">
+          <div class="course-image-container">
+            <svg viewBox="0 0 128 128" class="course-logo">
+              <path fill="#F0DE36" d="M1.408 1.408h125.184v125.185H1.408z"></path>
+              <path fill="#000"
+                d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="course-name">Get started with JavaScript</h3>
+          <p class="course-statistics">108.2K entrolled</p>
+          <p class="course-des">Hands on practice with JavaScript to gain practical knowledge</p>
+          <button class="enroll-btn" onclick="enroll(1)">Enroll Now</button>
+        </div>
+        <div class="course-container">
+          <div class="course-image-container">
+            <svg viewBox="0 0 128 128" class="course-logo">
+              <linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476"
+                x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
+                <stop offset="0" stop-color="#fff"></stop>
+                <stop offset="1" stop-color="#fff"></stop>
+              </linearGradient>
+              <linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811"
+                x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
+                <stop offset="0" stop-color="#FFD43B"></stop>
+                <stop offset="1" stop-color="#FFE873"></stop>
+              </linearGradient>
+              <path fill="url(#python-original-a)"
+                d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z"
+                transform="translate(0 10.26)"></path>
+              <path fill="url(#python-original-b)"
+                d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z"
+                transform="translate(0 10.26)"></path>
+              <radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743"
+                gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"></stop>
+                <stop offset="1" stop-color="#7F7F7F" stop-opacity="0"></stop>
+              </radialGradient>
+              <path opacity=".444" fill="url(#python-original-c)"
+                d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="course-name">Get started with Python</h3>
+          <p class="course-statistics">98.2K entrolled</p>
+          <p class="course-des">Hands on practice with Python to gain practical knowledge</p>
+          <button class="enroll-btn" onclick="enroll(2)">Enroll Now</button>
+        </div>
+        <div class="course-container">
+          <div class="course-image-container">
+            <svg viewBox="0 0 128 128" class="course-logo">
+              <path fill="#fff" d="M63.81 1.026L4.553 21.88l9.363 77.637 49.957 27.457 50.214-27.828 9.36-77.635z">
+              </path>
+              <path fill="#F0DE36" d="M117.536 25.998L63.672 7.629v112.785l45.141-24.983z"></path>
+              <path fill="#F3AE36" d="M11.201 26.329l8.026 69.434 44.444 24.651V7.627z"></path>
+              <path fill="#6528F7"
+                d="M78.499 67.67l-14.827 6.934H48.044l-7.347 18.374-13.663.254 36.638-81.508L78.499 67.67zm-1.434-3.491L63.77 37.858 52.864 63.726h10.807l13.394.453z">
+              </path>
+              <path fill="#6548F7"
+                d="M63.671 11.724l.098 26.134 12.375 25.888H63.698l-.027 10.841 17.209.017 8.042 18.63 13.074.242z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="course-name">Get started with Angular</h3>
+          <p class="course-statistics">34.2K entrolled</p>
+          <p class="course-des">Hands on practice with Angular to gain practical knowledge</p>
+          <button class="enroll-btn" onclick="enroll(3)">Enroll Now</button>
+        </div>
+        <div class="course-container">
+          <div class="course-image-container">
+            <svg viewBox="0 0 128 128" class="course-logo">
+              <path fill="#F0DE36"
+                d="M126.33 34.06a39.32 39.32 0 00-.79-7.83 28.78 28.78 0 00-2.65-7.58 28.84 28.84 0 00-4.76-6.32 23.42 23.42 0 00-6.62-4.55 27.27 27.27 0 00-7.68-2.53c-2.65-.51-5.56-.51-8.21-.76H30.25a45.46 45.46 0 00-6.09.51 21.82 21.82 0 00-5.82 1.52c-.53.25-1.32.51-1.85.76a33.82 33.82 0 00-5 3.28c-.53.51-1.06.76-1.59 1.26a22.41 22.41 0 00-4.76 6.32 23.61 23.61 0 00-2.65 7.58 78.5 78.5 0 00-.79 7.83v60.39a39.32 39.32 0 00.79 7.83 28.78 28.78 0 002.65 7.58 28.84 28.84 0 004.76 6.32 23.42 23.42 0 006.62 4.55 27.27 27.27 0 007.68 2.53c2.65.51 5.56.51 8.21.76h63.22a45.08 45.08 0 008.21-.76 27.27 27.27 0 007.68-2.53 30.13 30.13 0 006.62-4.55 22.41 22.41 0 004.76-6.32 23.61 23.61 0 002.65-7.58 78.49 78.49 0 00.79-7.83V34.06z">
+              </path>
+              <path fill="#6528F7"
+                d="M85 96.5c-11.11 6.13-26.38 6.76-41.75.47A64.53 64.53 0 0113.84 73a50 50 0 0010.85 6.32c15.87 7.1 31.73 6.61 42.9 0-15.9-11.66-29.4-26.82-39.46-39.2a43.47 43.47 0 01-5.29-6.82c12.16 10.61 31.5 24 38.38 27.79a271.77 271.77 0 01-27-32.34 266.8 266.8 0 0044.47 34.87c.71.38 1.26.7 1.7 1a32.7 32.7 0 001.21-3.51c3.71-12.89-.53-27.54-9.79-39.67C93.25 33.81 106 57.05 100.66 76.51c-.14.53-.29 1-.45 1.55l.19.22c10.59 12.63 7.68 26 6.35 23.5C101 91 90.37 94.33 85 96.5z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="course-name">Get started with Swift</h3>
+          <p class="course-statistics">55.4K entrolled</p>
+          <p class="course-des">Hands on practice with Swift to gain practical knowledge</p>
+          <button class="enroll-btn" onclick="enroll(4)">Enroll Now</button>
+        </div>
+      </div>
+      <button class="start-learning-btn cursor-pointer">Explore More Courses</button>
+    </section>
+  </main>
+  <footer>
+    <img class="footer-logo" src="./logo.png" alt="footer-logo" />
+    <p class="footer-text">Learn Today Earn Tomorrow</p>
+    <a href="https://balaharisankar.netlify.app" target="_blank">Designed By Balaharisankar</a>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
